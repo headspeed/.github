@@ -31,8 +31,9 @@ bit-identically on every platform, and every fidelity claim is backed by a test.
 - **Documentation:** [headspeed.github.io/headspeed](https://headspeed.github.io/headspeed/), with
   [getting started](https://headspeed.github.io/headspeed/guide/getting-started.html) and the
   [Godot frontend](https://headspeed.github.io/headspeed/guide/godot.html)
-- **Status:** alpha. The physics is checked against theory and the sim against itself; we are
-  looking for real helicopter flight logs to validate against. See
+- **Status:** alpha. Against a real Raptor E720 flight log, the generic 700's hover power is
+  within 0.7% and the logged rates replay at a median correlation of 0.95–0.98. We are
+  looking for more logs, ones that can be published, to validate in CI. See
   [Validation](https://headspeed.github.io/headspeed/guide/validation.html) if you can share one.
 
 Code: MIT or Apache-2.0, at your option. Vehicle models and data: CC-BY-4.0.
